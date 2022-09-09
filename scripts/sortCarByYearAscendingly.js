@@ -10,8 +10,8 @@ function sortCarByYearAscendingly(cars) {
   // Tulis code-mu disini
     for (let i = 0; i < result.length - 1; i++) {
         for (let ii = 0; ii < result.length - 1; ii++) {
-            now = result[ii].year
-            next = result[ii+1].year
+            now = result[ii].year;
+            next = result[ii+1].year;
             if(now > next){
                 temp = result[ii];
                 result[ii] = result[ii+1];
