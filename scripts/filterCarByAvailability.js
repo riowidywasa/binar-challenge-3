@@ -1,6 +1,6 @@
 function filterCarByAvailability(cars) {
   // Sangat dianjurkan untuk console.log semua hal hehe
-  console.log("Sebelum Filter")
+  console.log("Sebelum Filter");
   console.table(cars);
 
   // Tempat penampungan hasil
